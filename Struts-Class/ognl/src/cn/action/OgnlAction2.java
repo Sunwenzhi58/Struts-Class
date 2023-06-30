@@ -39,6 +39,6 @@ public class OgnlAction2 extends ActionSupport{
     public String execute() throws Exception{
         cat = new Cat();
         cat.setFriend(new Dog("dog0"));
-        return "success222";
+        return "success222333";
     }
 }
