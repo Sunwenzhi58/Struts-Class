@@ -40,6 +40,7 @@ public class OgnlAction2 extends ActionSupport{
         cat = new Cat();
         cat.setFriend(new Dog("dog0"));
         System.out.println("master test");
+        System.out.println("hotfix test");
         return "success222333-hotfix";
     }
 }
